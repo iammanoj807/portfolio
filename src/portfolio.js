@@ -344,7 +344,7 @@ const experience = {
           company_url: "https://www.thesparksfoundationsingapore.org",
           logo_path: "sparksfoundation_logo.png",
           duration: "October 2020 - November 2020",
-          location: "Work From Home",
+          location: "Remote",
           description:
             "I developed user-facing features using the MERN stack (MongoDB, Express.js, Node.js), optimizing app performance by 30% through code splitting and caching strategies. I also built reusable authentication modules and input validation systems, ensuring 100% secure data submission and scalability to handle 500+ concurrent users.",
           color: "#040404",

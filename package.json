@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage": "https://iammanoj807.github.io/portfolio",
   "name": "masterportfolio",
   "homepage": ".",
   "version": "0.1.0",
@@ -9,7 +10,9 @@
     "deploy": "gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.3",

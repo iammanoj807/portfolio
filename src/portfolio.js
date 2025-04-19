@@ -11,7 +11,7 @@ const seo = {
   og: {
     title: "Manoj Kumar Thapa Portfolio",
     type: "website",
-    url: "https://manojkumarthapa.netlify.app",
+    url: "https://iammanoj807.github.io/portfolio",
   },
 };
 
@@ -378,7 +378,7 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle: "I specialize in crafting insightful technical articles focused on programming. With a keen understanding of complex concepts, my articles aim to provide clear and valuable insights for readers in the programming community.",
-    link: "https://codes4real.netlify.app",
+    link: "https://hamropedia.com",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {

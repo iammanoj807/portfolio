@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
   "I am a master’s student at Aston University, specializing in artificial intelligence. I have strong skills in DSA, Softaware Development, Machine Learning, and AI. I am eager to apply my knowledge in a full-time role, take on new challenges, and contribute to exciting projects while growing professionally.",
   resumeLink:
-    "https://drive.google.com/file/d/1bbhI1Tbd1PVjhKOJ2V2C9lzvNObo4uc3/view?usp=sharing",
+    "https://drive.google.com/file/d/1A8WimLQV5pIN2Tvj-LwGMNm3mwU5FSg0/view?usp=sharing",
   portfolio_repository: "https://github.com/Manoj-Thapa",
   githubProfile: "https://github.com/Manoj-Thapa",
 };

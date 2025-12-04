@@ -1,6 +1,7 @@
 import React from "react";
 import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
+import { SiLeetcode } from "react-icons/si";
 import styled from "styled-components";
 
 const IconWrapper = styled.span`
@@ -24,8 +25,22 @@ export default function socialMedia(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconWrapper {...media} {...props}>
-              <i className={`fab ${media.fontAwesomeIcon}`}></i>
+            <IconWrapper {...media}>
+              {media.customIcon === "leetcode" ? (
+                <SiLeetcode
+                  style={{
+                    display: "inline-block",
+                    verticalAlign: "middle",
+                    backgroundColor: media.backgroundColor,
+                    padding: "7px",
+                    borderRadius: "50%",
+                  }}
+                  color="#FFA116"
+                  size="1.1em"
+                />
+              ) : (
+                <i className={`fab ${media.fontAwesomeIcon}`}></i>
+              )}
             </IconWrapper>
           </a>
         );

@@ -1,128 +1,80 @@
 {
-   "data":[
-      {
-         "id":"R_kgDOGwkR4A",
-         "name":"Codes4Real-Blog-Website",
-         "createdAt":"2022-01-30T03:34:10Z",
-         "url":"https://github.com/Manoj-Thapa/Codes4Real-Blog-Website",
-         "description":"Codes4Real is a dynamic website where you can see other’s post and also you can add your own post. The motto of this website is to share the knowledge. There are many features provided by this website.",
-         "isFork":false,
-         "languages":[
-            {
-               "name":"JavaScript",
-               "iconifyClass":"logos-javascript"
-            },
-            {
-               "name":"HTML",
-               "iconifyClass":"logos-html-5"
-            },
-            {
-               "name":"CSS",
-               "iconifyClass":"logos-css-3"
-            }
-         ]
-      },
-      {
-         "id":"R_kgDOGIMerg",
-         "name":"Nepal-Campground",
-         "createdAt":"2021-09-28T11:05:24Z",
-         "url":"https://github.com/Manoj-Thapa/Nepal-Campground",
-         "description":"Nepal Campground is a web application project. It is a web application designed to add, rate, and review different campgrounds, different users(read campers) can put in their comments and concerns so that it is a well-informed and well-prepared camping trip for other users.",
-         "isFork":false,
-         "languages":[
-            {
-               "name":"JavaScript",
-               "iconifyClass":"logos-javascript"
-            },
-            {
-               "name":"CSS",
-               "iconifyClass":"logos-css-3"
-            }
-         ]
-      },
-      {
-         "id":"R_kgDOGxUhYQ",
-         "name":"Twitter-UI-Clone",
-         "createdAt":"2022-02-01T11:57:19Z",
-         "url":"https://github.com/Manoj-Thapa/Twitter-UI-Clone",
-         "description":"Responsive Twitter web application built using React.JS.",
-         "isFork":false,
-         "languages":[
-            {
-               "name":"HTML",
-               "iconifyClass":"logos-html-5"
-            },
-            {
-               "name":"CSS",
-               "iconifyClass":"logos-css-3"
-            },
-            {
-               "name":"JavaScript",
-               "iconifyClass":"logos-javascript"
-            }
-         ]
-      },
-      {
-         "id":"R_kgDOGxUk3Q",
-         "name":"LinkedIn-UI-Clone",
-         "createdAt":"2022-02-01T12:00:18Z",
-         "url":"https://github.com/Manoj-Thapa/LinkedIn-UI-Clone",
-         "description":"Responsive LinkedIn web application built using React.JS.",
-         "isFork":false,
-         "languages":[
-            {
-               "name":"HTML",
-               "iconifyClass":"logos-html-5"
-            },
-            {
-               "name":"JavaScript",
-               "iconifyClass":"logos-javascript"
-            },
-            {
-               "name":"CSS",
-               "iconifyClass":"logos-css-3"
-            }
-         ]
-      },
-      {
-         "id":"R_kgDOGxUtrw",
-         "name":"Meals-App",
-         "createdAt":"2022-02-01T12:08:07Z",
-         "url":"https://github.com/Manoj-Thapa/Meals-App",
-         "description":"Responsive Meals Application built using React.JS. This application allows user to add there favourite meals to the cart and allows user to order the food available in the cart.  This application uses firebase to store user data and also store the food ordered by the user.",
-         "isFork":false,
-         "languages":[
-            {
-               "name":"HTML",
-               "iconifyClass":"logos-html-5"
-            },
-            {
-               "name":"JavaScript",
-               "iconifyClass":"logos-javascript"
-            },
-            {
-               "name":"CSS",
-               "iconifyClass":"logos-css-3"
-            }
-         ]
-      },
-      {
-         "id":"MDEwOlJlcG9zaXRvcnk0MDI3Mjg1NTg=",
-         "name":"Market-Value-Price",
-         "createdAt":"2021-09-03T10:16:46Z",
-         "url":"https://github.com/Manoj-Thapa/Market-Value-Price",
-         "description":"NodeApp which retrieve the market value price from https://api.wazirx.com/api/v2/tickers and store the data in MongoDB database and render the data to frontend.",
-         "isFork":false,
-         "languages":[
-            {
-               "name":"JavaScript",
-               "iconifyClass":"logos-javascript"
-            },
-            {
-               "name":"CSS",
-               "iconifyClass":"logos-css-3"
-            }
-         ]
-      }
-   ]
+  "data": [
+    {
+      "id": "fruit-detection",
+      "name": "Fruit Detection and Ripeness Assessment",
+      "createdAt": "2025-09-01T00:00:00Z",
+      "url": "https://github.com/iammanoj807",
+      "description": "Real-time fruit classification and ripeness assessment using transfer learning. Final Year MSc project - currently in progress.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "OpenCV",
+          "iconifyClass": "logos-opencv"
+        }
+      ]
+    },
+    {
+      "id": "sentiment-classification",
+      "name": "Sentiment Classification with DistilBERT",
+      "createdAt": "2025-06-01T00:00:00Z",
+      "url": "https://github.com/iammanoj807/Sentiment-Classification-with-DistilBERT",
+      "description": "Fine-tuned DistilBERT for sentiment classification on IMDb dataset. Achieved 86.68% accuracy with efficient model size and runtime.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "PyTorch",
+          "iconifyClass": "logos-pytorch"
+        }
+      ]
+    },
+    {
+      "id": "face-mask",
+      "name": "Face Mask Detection",
+      "createdAt": "2021-04-01T00:00:00Z",
+      "url": "https://github.com/Manoj-Thapa/Face-Mask-Detection",
+      "description": "Real-time face mask detection system using MobileNetV2 architecture. Computationally efficient with 98% accuracy.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "TensorFlow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "logos-keras"
+        }
+      ]
+    },
+    {
+      "id": "currency-recognition",
+      "name": "Indian Currency Recognition",
+      "createdAt": "2021-01-01T00:00:00Z",
+      "url": "https://www.researchgate.net/publication/390832714_Indian_Currency_Recognition_for_Visually_Impaired_using_Deep_Learning_Technique",
+      "description": "Currency recognition system using CNN achieving 96% accuracy. Published research paper on this innovative accessibility project.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "TensorFlow",
+          "iconifyClass": "logos-tensorflow"
+        }
+      ]
+    }
+  ]
 }

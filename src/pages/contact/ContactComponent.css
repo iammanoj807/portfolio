@@ -127,11 +127,15 @@
 }
 
 .profile-image {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover;   /* Ensures the image covers the container without distortion */
-  border: 2px solid #ccc; /* Optional: adds a light gray border */
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  /* border-radius: 50%; */
+  /* Makes the image circular */
+  /* object-fit: cover; */
+  /* Ensures the image covers the container without distortion */
+  /* border: 2px solid #ccc; */
+  /* Optional: adds a light gray border */
 }
 
 @media (max-width: 1380px) {
@@ -149,7 +153,7 @@
 @media (max-width: 768px) {
   .contact-heading-text {
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 40px;
   }
 
   .blog-heading-text {

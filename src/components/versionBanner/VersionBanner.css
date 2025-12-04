@@ -1,0 +1,22 @@
+.version-banner {
+  background-color: #9b5de5;
+  /* Updated color */
+  /* Using a color from the palette */
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.version-banner a {
+  color: #000;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+.version-banner a:hover {
+  color: #333;
+}

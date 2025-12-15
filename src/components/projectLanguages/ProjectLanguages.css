@@ -1,22 +1,34 @@
 .dev-icons-languages {
   padding-left: 0;
   list-style: none;
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .software-skill-inline-languages {
-  display: inline-block;
-  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0;
   margin-bottom: 0px;
   font-family: "Google Sans Regular";
 }
 
 @media (max-width: 768px) {
+  .dev-icons-languages {
+    font-size: 1.1rem;
+    gap: 6px;
+  }
+
   .software-skill-inline-languages {
-    margin-right: 10px;
+    margin-right: 0;
     margin-bottom: 0px;
   }
 }

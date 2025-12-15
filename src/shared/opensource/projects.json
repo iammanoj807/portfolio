@@ -1,11 +1,11 @@
 {
   "data": [
     {
-      "id": "fruit-detection",
-      "name": "Fruit Detection and Ripeness Assessment",
-      "createdAt": "2025-09-01T00:00:00Z",
-      "url": "https://github.com/iammanoj807",
-      "description": "Real-time fruit classification and ripeness assessment using transfer learning. Final Year MSc project - currently in progress.",
+      "id": "planck-ai",
+      "name": "Planck AI",
+      "createdAt": "2025-10-01T00:00:00Z",
+      "url": "https://huggingface.co/spaces/manojthapaa/planck-ai",
+      "description": "Created agentic AI system with multi-step reasoning combining GPT-4o with real-time web search and document analysis capabilities.",
       "isFork": false,
       "languages": [
         {
@@ -13,17 +13,51 @@
           "iconifyClass": "logos-python"
         },
         {
-          "name": "OpenCV",
-          "iconifyClass": "logos-opencv"
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "LangGraph",
+          "iconifyClass": "simple-icons:langchain"
         }
       ]
     },
     {
-      "id": "sentiment-classification",
-      "name": "Sentiment Classification with DistilBERT",
+      "id": "online-bookstore",
+      "name": "Online Bookstore",
+      "createdAt": "2025-08-01T00:00:00Z",
+      "url": "https://bookstore-g9ob.onrender.com/",
+      "description": "Developed full-stack e-commerce application with JWT authentication, shopping cart, order tracking, and responsive React frontend with dark mode.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "Spring Boot",
+          "iconifyClass": "simple-icons:springboot"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos-postgresql"
+        }
+      ]
+    },
+    {
+      "id": "cognigraph",
+      "name": "CogniGraph",
       "createdAt": "2025-06-01T00:00:00Z",
-      "url": "https://github.com/iammanoj807/Sentiment-Classification-with-DistilBERT",
-      "description": "Fine-tuned DistilBERT for sentiment classification on IMDb dataset. Achieved 86.68% accuracy with efficient model size and runtime.",
+      "url": "https://huggingface.co/spaces/manojthapaa/CogniGraph",
+      "description": "Built AI-powered knowledge graph explorer that transforms PDFs into interactive visualizations with entity extraction and RAG-based document chat.",
       "isFork": false,
       "languages": [
         {
@@ -31,48 +65,16 @@
           "iconifyClass": "logos-python"
         },
         {
-          "name": "PyTorch",
-          "iconifyClass": "logos-pytorch"
-        }
-      ]
-    },
-    {
-      "id": "face-mask",
-      "name": "Face Mask Detection",
-      "createdAt": "2021-04-01T00:00:00Z",
-      "url": "https://github.com/Manoj-Thapa/Face-Mask-Detection",
-      "description": "Real-time face mask detection system using MobileNetV2 architecture. Computationally efficient with 98% accuracy.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
         },
         {
-          "name": "TensorFlow",
-          "iconifyClass": "logos-tensorflow"
+          "name": "React",
+          "iconifyClass": "logos-react"
         },
         {
-          "name": "Keras",
-          "iconifyClass": "logos-keras"
-        }
-      ]
-    },
-    {
-      "id": "currency-recognition",
-      "name": "Indian Currency Recognition",
-      "createdAt": "2021-01-01T00:00:00Z",
-      "url": "https://www.researchgate.net/publication/390832714_Indian_Currency_Recognition_for_Visually_Impaired_using_Deep_Learning_Technique",
-      "description": "Currency recognition system using CNN achieving 96% accuracy. Published research paper on this innovative accessibility project.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "TensorFlow",
-          "iconifyClass": "logos-tensorflow"
+          "name": "ChromaDB",
+          "iconifyClass": "simple-icons:chroma"
         }
       ]
     }

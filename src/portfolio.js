@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "MSc Artificial Intelligence (Computer Science) student with a strong foundation in software development. Seeking a challenging software developer role to contribute to impactful projects and apply academic knowledge to real-world, data-driven solutions.",
   resumeLink:
-    "https://drive.google.com/file/d/1Qsc1ImHcuJYK-zkoO-c7g1x_f1oxHhVh/view?usp=sharing",
+    "https://drive.google.com/file/d/1pN7YiclFrzZHM103MgIlxmlDGNieQ8Pk/view?usp=sharing",
   portfolio_repository: "https://github.com/iammanoj807",
   githubProfile: "https://github.com/iammanoj807",
 };

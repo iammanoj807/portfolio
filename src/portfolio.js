@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "MSc Artificial Intelligence (Computer Science) student with a strong foundation in software development. Seeking a challenging software developer role to contribute to impactful projects and apply academic knowledge to real-world, data-driven solutions.",
   resumeLink:
-    "https://drive.google.com/file/d/1pN7YiclFrzZHM103MgIlxmlDGNieQ8Pk/view?usp=sharing",
+    "https://drive.google.com/file/d/10PoGlBeAiIJfOACCaiXiPo3cR5DvgInp/view?usp=sharing",
   portfolio_repository: "https://github.com/iammanoj807",
   githubProfile: "https://github.com/iammanoj807",
 };
@@ -301,6 +301,16 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "5-Day AI Agents Intensive Course",
+      subtitle: "Google | Kaggle",
+      logo_path: "",
+      certificate_link:
+        "https://www.kaggle.com/certification/badges/manojkumarthapa/105",
+      alt_name: "Google",
+      color_code: "#ffffff",
+      icon: "logos:google-icon",
+    },
+    {
       title: "AI Masterclass: How AI Thinks",
       subtitle: "- Saras AI Institute",
       logo_path: "saras_ai_institute.png",
@@ -327,14 +337,7 @@ const certifications = {
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
-    {
-      title: "Convolutional Neural Networks",
-      subtitle: "- GUVI Training",
-      logo_path: "guvi_logo.png",
-      certificate_link: "https://www.guvi.in/certificate?id=gfH250280A8ru61p75",
-      alt_name: "guvi.in",
-      color_code: "#0C9D5899",
-    },
+
     {
       title: "Data Visualization using Python",
       subtitle: "- Great Learning",

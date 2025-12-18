@@ -4,7 +4,7 @@ export const portfolioData = {
   description:
     "MSc Artificial Intelligence (Computer Science) student with a strong foundation in software development. Seeking a challenging software developer role to contribute to impactful projects and apply academic knowledge to real-world, data-driven solutions.",
   resume_link:
-    "https://drive.google.com/file/d/1pN7YiclFrzZHM103MgIlxmlDGNieQ8Pk/view?usp=sharing",
+    "https://drive.google.com/file/d/10PoGlBeAiIJfOACCaiXiPo3cR5DvgInp/view?usp=sharing",
   leetcode: "https://leetcode.com/u/manojthapa/",
   blog_link: "https://hamropedia.com",
   address: "Birmingham, UK",
@@ -24,6 +24,12 @@ export const portfolioData = {
       url: "https://www.linkedin.com/in/manoj-kumar-thapa-7595a5168",
       icon: "fa-brands fa-linkedin-in",
       color: "#0077B5",
+    },
+    {
+      name: "LeetCode",
+      url: "https://leetcode.com/u/manojthapa/",
+      icon: "simple-icons:leetcode",
+      color: "#FFA116",
     },
     {
       name: "Blog",
@@ -111,6 +117,7 @@ export const portfolioData = {
       category: "Databases",
       skills: [
         { name: "MySQL", icon: "fa-solid fa-database", color: "#00758F" },
+        { name: "PostgreSQL", icon: "fa-solid fa-server", color: "#336791" },
         { name: "Firebase", icon: "fa-solid fa-fire", color: "#FF9800" },
       ],
     },
@@ -191,12 +198,19 @@ export const portfolioData = {
 
   certifications: [
     {
+      title: "5-Day AI Agents Intensive Course",
+      subtitle: "Google | Kaggle",
+      link: "https://www.kaggle.com/certification/badges/manojkumarthapa/105",
+      icon: "logos:google-icon",
+      // iconColor: "#4285F4" // Color not needed for logos:
+    },
+    {
       title: "AI Masterclass: How AI Thinks",
       subtitle: "Saras AI Institute",
       link:
         "https://credsverse.com/credentials/3f44c319-2b85-4345-824f-191da7fdbef2",
-      icon: "fa-solid:brain",
-      iconColor: "#00FF00",
+      icon: "fa-solid:microchip",
+      iconColor: "#00E5FF",
     },
     {
       title: "Machine Learning",
@@ -213,13 +227,6 @@ export const portfolioData = {
         "https://www.coursera.org/account/accomplishments/specialization/certificate/MLU4694ENBEL",
       icon: "fa-solid:network-wired",
       iconColor: "#FFD700",
-    },
-    {
-      title: "Convolutional Neural Networks",
-      subtitle: "GUVI Training",
-      link: "https://www.guvi.in/certificate?id=gfH250280A8ru61p75",
-      icon: "simple-icons:opencv",
-      iconColor: "#5C3EEE",
     },
     {
       title: "Data Visualization using Python",

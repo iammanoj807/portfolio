@@ -1,11 +1,11 @@
 {
   "data": [
     {
-      "id": "planck-ai",
-      "name": "Planck AI",
-      "createdAt": "2025-10-01T00:00:00Z",
-      "url": "https://huggingface.co/spaces/manojthapaa/planck-ai",
-      "description": "Created agentic AI system with multi-step reasoning combining GPT-4o with real-time web search and document analysis capabilities.",
+      "id": "neuroarc",
+      "name": "NeuroArc",
+      "createdAt": "2025-11-01T00:00:00Z",
+      "url": "https://huggingface.co/spaces/manojthapaa/NeuroArc",
+      "description": "Built an AI-powered job application assistant that parses resumes and generates ATS-optimized tailored versions using prompt engineering.",
       "isFork": false,
       "languages": [
         {
@@ -21,17 +21,43 @@
           "iconifyClass": "logos-react"
         },
         {
-          "name": "LangGraph",
-          "iconifyClass": "simple-icons:langchain"
+          "name": "OpenAI",
+          "iconifyClass": "simple-icons:openai"
         }
       ]
     },
     {
-      "id": "online-bookstore",
-      "name": "Online Bookstore",
+      "id": "planck-ai",
+      "name": "Planck AI",
+      "createdAt": "2025-09-01T00:00:00Z",
+      "url": "https://huggingface.co/spaces/manojthapaa/planck-ai",
+      "description": "Engineered an autonomous agentic system capable of multi-step reasoning by orchestrating LLM tool-calling for real-time web search.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "LangGraph",
+          "iconifyClass": "simple-icons:langchain"
+        },
+        {
+          "name": "GPT-4o",
+          "iconifyClass": "simple-icons:openai"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        }
+      ]
+    },
+    {
+      "id": "novela",
+      "name": "Full-Stack E-Commerce Platform",
       "createdAt": "2025-08-01T00:00:00Z",
-      "url": "https://bookstore-g9ob.onrender.com/",
-      "description": "Developed full-stack e-commerce application with JWT authentication, shopping cart, order tracking, and responsive React frontend with dark mode.",
+      "url": "https://novela-app.onrender.com/",
+      "description": "Engineered a complete e-commerce solution with a secure Spring Boot API (JWT) and a responsive React frontend.",
       "isFork": false,
       "languages": [
         {
@@ -47,8 +73,8 @@
           "iconifyClass": "logos-react"
         },
         {
-          "name": "PostgreSQL",
-          "iconifyClass": "logos-postgresql"
+          "name": "Docker",
+          "iconifyClass": "logos-docker-icon"
         }
       ]
     },
@@ -57,7 +83,7 @@
       "name": "CogniGraph",
       "createdAt": "2025-06-01T00:00:00Z",
       "url": "https://huggingface.co/spaces/manojthapaa/CogniGraph",
-      "description": "Built AI-powered knowledge graph explorer that transforms PDFs into interactive visualizations with entity extraction and RAG-based document chat.",
+      "description": "Developed a RAG-based document explorer that extracts entities and relationships from unstructured PDFs to build interactive knowledge graphs.",
       "isFork": false,
       "languages": [
         {
@@ -65,16 +91,12 @@
           "iconifyClass": "logos-python"
         },
         {
-          "name": "FastAPI",
-          "iconifyClass": "simple-icons:fastapi"
-        },
-        {
-          "name": "React",
-          "iconifyClass": "logos-react"
-        },
-        {
           "name": "ChromaDB",
-          "iconifyClass": "simple-icons:chroma"
+          "iconifyClass": "fa-solid:database"
+        },
+        {
+          "name": "RAG",
+          "iconifyClass": "fa-solid:brain"
         }
       ]
     }

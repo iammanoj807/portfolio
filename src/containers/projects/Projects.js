@@ -1,77 +1,27 @@
 import React, { useState, useEffect } from "react";
-import ApolloClient from "apollo-boost";
-import { gql } from "apollo-boost";
 import "./Project.css";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
-import { openSource } from "../../portfolio";
-import { greeting } from "../../portfolio.js";
+import { openSource, greeting } from "../../portfolio";
+import projectsData from "../../shared/opensource/projects.json";
 
-export default function Projects() {
+export default function Projects(props) {
   const [repo, setrepo] = useState([]);
+  const theme = props.theme;
 
   useEffect(() => {
-    getRepoData();
+    // Directly using data from projects.json
+    setrepo(projectsData.data);
   }, []);
-
-  function getRepoData() {
-    const client = new ApolloClient({
-      uri: "https://api.github.com/graphql",
-      request: (operation) => {
-        operation.setContext({
-          headers: {
-            authorization: `Bearer ${atob(openSource.githubConvertedToken)}`,
-          },
-        });
-      },
-    });
-
-    client
-      .query({
-        query: gql`
-          {
-            repositoryOwner(login: "${openSource.githubUserName}") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
-                      description
-                      forkCount
-                      stargazers {
-                        totalCount
-                      }
-                      url
-                      id
-                      diskUsage
-                      primaryLanguage {
-                        name
-                        color
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        `,
-      })
-      .then((result) => {
-        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
-        console.log(result);
-      });
-  }
-
-  function setrepoFunction(array) {
-    setrepo(array);
-  }
 
   return (
     <div className="main" id="opensource">
-      <h1 className="project-title">Open Source Projects</h1>
+      <h1 className="project-title" style={{ color: theme.text }}>
+        Open Source Projects
+      </h1>
       <div className="repo-cards-div-main">
         {repo.map((v, i) => {
-          return <GithubRepoCard repo={v} key={v.node.id} />;
+          return <GithubRepoCard repo={v} key={v.id} theme={theme} />;
         })}
       </div>
       <Button
@@ -79,6 +29,7 @@ export default function Projects() {
         className="project-button"
         href={greeting.githubProfile}
         newTab={true}
+        theme={theme}
       />
     </div>
   );

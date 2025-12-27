@@ -19,11 +19,11 @@ const seo = {
 const greeting = {
   title: "Manoj Kumar Thapa",
   logo_name: "Manoj Kumar Thapa",
-  nickname: "Software Engineer & AI Engineer",
+  nickname: "Software Engineer",
   subTitle:
-    "MSc Artificial Intelligence (Computer Science) student with a strong foundation in software development. Seeking a challenging software developer role to contribute to impactful projects and apply academic knowledge to real-world, data-driven solutions.",
+    "Software Engineer and MSc AI candidate with 2 years of enterprise experience at Accenture, specializing in Agentic AI and full-stack development. Combines industrial software discipline with advanced research in LLMs and RAG.",
   resumeLink:
-    "https://drive.google.com/file/d/10PoGlBeAiIJfOACCaiXiPo3cR5DvgInp/view?usp=sharing",
+    "https://drive.google.com/file/d/1OIVr19Q9hefwvkLsmyV7TBpuw5VILfhs/view?usp=sharing",
   portfolio_repository: "https://github.com/iammanoj807",
   githubProfile: "https://github.com/iammanoj807",
 };
@@ -33,7 +33,7 @@ const socialMediaLinks = [
     name: "Github",
     link: "https://github.com/iammanoj807",
     fontAwesomeIcon: "fa-github",
-    backgroundColor: "#181717", // Keeping original color for better contrast/theme consistency
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
@@ -41,6 +41,7 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
+
   {
     name: "Blog",
     link: "https://hamropedia.com",
@@ -79,37 +80,37 @@ const skills = {
         },
         {
           skillName: "PyTorch",
-          fontAwesomeClassname: "simple-icons:pytorch",
+          fontAwesomeClassname: "fa-solid:fire",
           style: { color: "#EE4C2C" },
         },
         {
           skillName: "TensorFlow",
-          fontAwesomeClassname: "logos:tensorflow",
+          fontAwesomeClassname: "fa-solid:cube",
           style: { color: "#FF6F00" },
         },
         {
           skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          fontAwesomeClassname: "fa-solid:layer-group",
           style: { color: "#D00000" },
         },
         {
           skillName: "Hugging Face",
-          fontAwesomeClassname: "logos:hugging-face",
+          fontAwesomeClassname: "logos:hugging-face-icon",
           style: { color: "#FFD21E" },
         },
         {
           skillName: "Scikit-learn",
-          fontAwesomeClassname: "simple-icons:scikitlearn",
+          fontAwesomeClassname: "fa-solid:chart-line",
           style: { color: "#F7931E" },
         },
         {
           skillName: "OpenCV",
-          fontAwesomeClassname: "simple-icons:opencv",
+          fontAwesomeClassname: "fa-solid:image",
           style: { color: "#5C3EEE" },
         },
         {
           skillName: "LangChain",
-          fontAwesomeClassname: "simple-icons:langchain",
+          fontAwesomeClassname: "fa-solid:link",
           style: { color: "#1C3144" },
         },
         {
@@ -147,17 +148,17 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Python",
-          fontAwesomeClassname: "logos:python",
+          fontAwesomeClassname: "fa-brands:python",
           style: { color: "#3776AB" },
         },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "logos:javascript",
+          fontAwesomeClassname: "fa-brands:js",
           style: { color: "#F7DF1E" },
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "logos:java",
+          fontAwesomeClassname: "fa-brands:java",
           style: { color: "#007396" },
         },
         {
@@ -167,47 +168,47 @@ const skills = {
         },
         {
           skillName: "React.js",
-          fontAwesomeClassname: "logos:react",
+          fontAwesomeClassname: "fa-brands:react",
           style: { color: "#61DAFB" },
         },
         {
           skillName: "HTML5",
-          fontAwesomeClassname: "logos:html-5",
+          fontAwesomeClassname: "fa-brands:html5",
           style: { color: "#E34F26" },
         },
         {
           skillName: "CSS3",
-          fontAwesomeClassname: "logos:css-3",
+          fontAwesomeClassname: "fa-brands:css3-alt",
           style: { color: "#1572B6" },
         },
         {
           skillName: "Spring Boot",
-          fontAwesomeClassname: "simple-icons:springboot",
+          fontAwesomeClassname: "fa-solid:leaf",
           style: { color: "#6DB33F" },
         },
         {
           skillName: "Node.js",
-          fontAwesomeClassname: "logos:nodejs-icon",
+          fontAwesomeClassname: "fa-brands:node-js",
           style: { color: "#339933" },
         },
         {
           skillName: "Git",
-          fontAwesomeClassname: "logos:git-icon",
+          fontAwesomeClassname: "fa-brands:git-alt",
           style: { color: "#F05032" },
         },
         {
           skillName: "Docker",
-          fontAwesomeClassname: "logos:docker-icon",
+          fontAwesomeClassname: "fa-brands:docker",
           style: { color: "#2496ED" },
         },
         {
           skillName: "Jupyter",
-          fontAwesomeClassname: "logos:jupyter",
+          fontAwesomeClassname: "fa-solid:book",
           style: { color: "#F37726" },
         },
         {
           skillName: "VS Code",
-          fontAwesomeClassname: "logos:visual-studio-code",
+          fontAwesomeClassname: "fa-solid:code",
           style: { color: "#007ACC" },
         },
         {
@@ -217,12 +218,17 @@ const skills = {
         },
         {
           skillName: "MySQL",
-          fontAwesomeClassname: "logos:mysql",
+          fontAwesomeClassname: "fa-solid:database",
           style: { color: "#00758F" },
         },
         {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "fa-solid:server",
+          style: { color: "#336791" },
+        },
+        {
           skillName: "Firebase",
-          fontAwesomeClassname: "logos:firebase",
+          fontAwesomeClassname: "fa-solid:fire",
           style: { color: "#FF9800" },
         },
       ],
@@ -375,11 +381,13 @@ const experience = {
           company: "Aston University",
           company_url: "https://www.aston.ac.uk",
           logo_path: "aston_logo.png",
-          duration: "Aug 2025 - Present (3 months)",
+          duration: "August 2025 - Present",
           location: "Birmingham, England, United Kingdom · On-site",
-          description:
-            "Guiding new MSc AI students in their academic transition, supporting coursework, projects, and skill development.",
-          color: "#D83B01",
+          description: [
+            "Mentoring MSc AI students through their academic transition, providing guidance on coursework, project strategies, and career development.",
+            "Conducting weekly one-on-one sessions to support skill development in machine learning, Python, and research methodologies.",
+          ],
+          color: "#A100FE",
         },
         {
           title: "Associate Software Engineer",
@@ -387,26 +395,13 @@ const experience = {
           company_url: "https://www.accenture.com",
           logo_path: "accenture_logo.png",
           duration: "October 2021 - October 2023",
-          location: "Bengaluru, Karnataka, India",
-          description:
-            "Developed full-stack enterprise applications in an Agile team and optimized a key API, achieving a 40% reduction in response time for a high-traffic service.",
+          location: "Bangalore, India",
+          description: [
+            "Developed scalable full-stack modules using Java Spring Boot and React for a high-traffic client application, strictly adhering to Agile workflows.",
+            "Optimized slow-performing SQL queries and API endpoints, reducing response latency by 40% and improving user experience.",
+            "Integrated automated unit testing (JUnit) into CI/CD pipelines, reducing regression bugs and accelerating deployment cycles.",
+          ],
           color: "#A100FE",
-        },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Web Development Intern",
-          company: "The Sparks Foundation",
-          company_url: "https://www.thesparksfoundationsingapore.org",
-          logo_path: "sparksfoundation_logo.png",
-          duration: "October 2020 - November 2020",
-          location: "Remote",
-          description:
-            "Engineered secure authentication modules and improved application performance by 30% through strategic code splitting and caching.",
-          color: "#040404",
         },
       ],
     },

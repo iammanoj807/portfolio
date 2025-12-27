@@ -5,11 +5,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Manoj Kumar Thapa Portfolio",
+  title: "Manoj Kumar Thapa",
   description:
     "MSc Artificial Intelligence (Computer Science) student with a strong foundation in software development. Seeking a challenging software developer role to contribute to impactful projects and apply academic knowledge to real-world, data-driven solutions.",
   og: {
-    title: "Manoj Kumar Thapa Portfolio",
+    title: "Manoj Kumar Thapa",
     type: "website",
     url: "https://iammanoj807.github.io/portfolio",
   },

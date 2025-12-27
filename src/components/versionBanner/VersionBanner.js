@@ -7,7 +7,7 @@ export default function VersionBanner() {
       <p>
         🎉 Portfolio Version 2.0 is available!{" "}
         <a
-          href="https://iammanoj807.github.io/profile/"
+          href="https://iammanoj807.github.io/profile"
           target="_blank"
           rel="noopener noreferrer"
         >

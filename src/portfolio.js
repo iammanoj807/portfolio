@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "Software Engineer and MSc AI candidate with 2 years of enterprise experience at Accenture, specializing in Agentic AI and full-stack development. Combines industrial software discipline with advanced research in LLMs and RAG.",
   resumeLink:
-    "https://drive.google.com/file/d/1QEYOuWuWnXZvOKoSZWres5RpJIji9jYl/view?usp=sharing",
+    "https://drive.google.com/file/d/1fmYNeJwgn4d-LIWJZtekSqy7CD9RGTJt/view?usp=sharing",
   portfolio_repository: "https://github.com/iammanoj807",
   githubProfile: "https://github.com/iammanoj807",
 };

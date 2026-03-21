@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "./static/css/main.8ca431cf.css",
-    "main.js": "./static/js/main.2db2a54b.js",
+    "main.css": "./static/css/main.37ca5ed6.css",
+    "main.js": "./static/js/main.d40dda76.js",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/drait_logo.png": "./static/media/drait_logo.d35152749dac3d51a4e7.png",
     "static/media/Montserrat-Regular.ttf": "./static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/manojkumarthapa.png": "./static/media/manojkumarthapa.a1460302e9b2344ac5ef.png",
+    "static/media/Manoj Kumar THapa.png": "./static/media/Manoj Kumar THapa.10ff7f471a49ed9be8cc.png",
     "static/media/fa-solid-900.eot": "./static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
     "static/media/fa-solid-900.ttf": "./static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
     "static/media/fa-regular-400.svg": "./static/media/fa-regular-400.4e8f9fa44f7ec7479c39.svg",
@@ -56,11 +56,11 @@
     "static/media/googleAssistant.svg": "./static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.8ca431cf.css.map": "./static/css/main.8ca431cf.css.map",
-    "main.2db2a54b.js.map": "./static/js/main.2db2a54b.js.map"
+    "main.37ca5ed6.css.map": "./static/css/main.37ca5ed6.css.map",
+    "main.d40dda76.js.map": "./static/js/main.d40dda76.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ca431cf.css",
-    "static/js/main.2db2a54b.js"
+    "static/css/main.37ca5ed6.css",
+    "static/js/main.d40dda76.js"
   ]
 }

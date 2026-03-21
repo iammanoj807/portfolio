@@ -12,6 +12,11 @@ import "./assests/font-awesome/css/all.css";
 
 const engine = new Styletron();
 
+document.addEventListener("contextmenu", (event) => {
+  if (event.target.nodeName === "IMG") {
+    event.preventDefault();
+  }
+});
 ReactDOM.render(
   <StyletronProvider value={engine}>
     <BaseProvider theme={LightTheme}>

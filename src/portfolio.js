@@ -426,7 +426,7 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "Manoj Kumar THapa.png",
+    profile_image_path: "Manoj Thapa Professional.png",
     description:
       "Have a project in mind or an opportunity you'd like to discuss? I'm currently seeking internship and graduate roles where I can apply my skills in AI and full-stack development. Let's talk about how I can contribute to your team.",
   },

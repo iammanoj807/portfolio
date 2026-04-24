@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.37ca5ed6.css",
-    "main.js": "./static/js/main.7c048f5d.js",
+    "main.css": "./static/css/main.505faaea.css",
+    "main.js": "./static/js/main.ab10a5df.js",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/drait_logo.png": "./static/media/drait_logo.d35152749dac3d51a4e7.png",
@@ -56,11 +56,11 @@
     "static/media/googleAssistant.svg": "./static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.37ca5ed6.css.map": "./static/css/main.37ca5ed6.css.map",
-    "main.7c048f5d.js.map": "./static/js/main.7c048f5d.js.map"
+    "main.505faaea.css.map": "./static/css/main.505faaea.css.map",
+    "main.ab10a5df.js.map": "./static/js/main.ab10a5df.js.map"
   },
   "entrypoints": [
-    "static/css/main.37ca5ed6.css",
-    "static/js/main.7c048f5d.js"
+    "static/css/main.505faaea.css",
+    "static/js/main.ab10a5df.js"
   ]
 }

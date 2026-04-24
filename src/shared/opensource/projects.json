@@ -3,7 +3,7 @@
     {
       "id": "fruitguard-ai",
       "name": "FruitGuard AI — MSc Dissertation",
-      "createdAt": "2025-01-01T00:00:00Z",
+      "createdAt": "2025-08-01T00:00:00Z",
       "url": "https://huggingface.co/spaces/manojthapaa/fruit-guard-ai",
       "description": "Researched and implemented a two-phase transfer learning pipeline (YOLOv8n) achieving 96.3% classification accuracy with 95% less training data. Deployed as a real-time web app via ONNX Runtime at 73 FPS.",
       "isFork": false,

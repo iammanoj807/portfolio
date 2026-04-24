@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "Software Engineer with <strong>2 years of production experience</strong> building Java Spring Boot backends and REST APIs at Accenture, and a <strong>recently completed MSc in Artificial Intelligence</strong> (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Independently learning Kafka and Snowflake. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
   resumeLink:
-    "https://drive.google.com/file/d/1ZURnm5vjGUQ6OIzd5KBarIFh3oXGdGYa/view?usp=sharing",
+    "https://drive.google.com/file/d/1TZEJB-oa2n3vR-QtRK9yBt-Dm6pknPR_/view?usp=sharing",
   portfolio_repository: "https://github.com/iammanoj807",
   githubProfile: "https://github.com/iammanoj807",
 };

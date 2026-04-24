@@ -7,7 +7,7 @@ const settings = {
 const seo = {
   title: "Manoj Kumar Thapa",
   description:
-    "MSc Artificial Intelligence (Computer Science) student with a strong foundation in software development. Seeking a challenging software developer role to contribute to impactful projects and apply academic knowledge to real-world, data-driven solutions.",
+    "Software Engineer with 2 years of production experience building Java Spring Boot backends and REST APIs at Accenture, and a recently completed MSc in Artificial Intelligence (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Independently learning Kafka and Snowflake. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
   og: {
     title: "Manoj Kumar Thapa",
     type: "website",
@@ -21,9 +21,9 @@ const greeting = {
   logo_name: "Manoj Kumar Thapa",
   nickname: "Software Engineer",
   subTitle:
-    "Software Engineer and MSc AI candidate with 2 years of enterprise experience at Accenture, specializing in Agentic AI and full-stack development. Combines industrial software discipline with advanced research in LLMs and RAG.",
+    "Software Engineer with <strong>2 years of production experience</strong> building Java Spring Boot backends and REST APIs at Accenture, and a <strong>recently completed MSc in Artificial Intelligence</strong> (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Independently learning Kafka and Snowflake. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
   resumeLink:
-    "https://drive.google.com/file/d/1fmYNeJwgn4d-LIWJZtekSqy7CD9RGTJt/view?usp=sharing",
+    "https://drive.google.com/file/d/1J22Fp2VencW6tyEEosXEfQvjmStL2iOr/view?usp=sharing",
   portfolio_repository: "https://github.com/iammanoj807",
   githubProfile: "https://github.com/iammanoj807",
 };
@@ -41,7 +41,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
-
+  {
+    name: "LeetCode",
+    link: "https://leetcode.com/u/manojthapa/",
+    fontAwesomeIcon: "fas fa-code",
+    backgroundColor: "#FFA116",
+  },
   {
     name: "Blog",
     link: "https://hamropedia.com",
@@ -69,16 +74,6 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Machine Learning",
-          fontAwesomeClassname: "fa-solid:brain",
-          style: { color: "#FFB81C" },
-        },
-        {
-          skillName: "Deep Learning",
-          fontAwesomeClassname: "fa-solid:network-wired",
-          style: { color: "#FF6B6B" },
-        },
-        {
           skillName: "PyTorch",
           fontAwesomeClassname: "fa-solid:fire",
           style: { color: "#EE4C2C" },
@@ -89,39 +84,24 @@ const skills = {
           style: { color: "#FF6F00" },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "fa-solid:layer-group",
-          style: { color: "#D00000" },
-        },
-        {
-          skillName: "Hugging Face",
-          fontAwesomeClassname: "logos:hugging-face-icon",
-          style: { color: "#FFD21E" },
-        },
-        {
           skillName: "Scikit-learn",
           fontAwesomeClassname: "fa-solid:chart-line",
           style: { color: "#F7931E" },
         },
         {
-          skillName: "OpenCV",
-          fontAwesomeClassname: "fa-solid:image",
-          style: { color: "#5C3EEE" },
+          skillName: "YOLOv8",
+          fontAwesomeClassname: "fa-solid:eye",
+          style: { color: "#00BFFF" },
         },
         {
-          skillName: "LangChain",
-          fontAwesomeClassname: "fa-solid:link",
+          skillName: "ONNX",
+          fontAwesomeClassname: "fa-solid:microchip",
+          style: { color: "#005CED" },
+        },
+        {
+          skillName: "LangGraph",
+          fontAwesomeClassname: "fa-solid:diagram-project",
           style: { color: "#1C3144" },
-        },
-        {
-          skillName: "LLM",
-          fontAwesomeClassname: "fa-solid:wand-magic-sparkles",
-          style: { color: "#9333EA" },
-        },
-        {
-          skillName: "Agents",
-          fontAwesomeClassname: "fa-solid:robot",
-          style: { color: "#EF4444" },
         },
         {
           skillName: "RAG",
@@ -129,9 +109,14 @@ const skills = {
           style: { color: "#0EA5E9" },
         },
         {
-          skillName: "Vector DB",
-          fontAwesomeClassname: "fa-solid:cubes",
-          style: { color: "#8B5CF6" },
+          skillName: "OpenAI API",
+          fontAwesomeClassname: "fa-solid:wand-magic-sparkles",
+          style: { color: "#9333EA" },
+        },
+        {
+          skillName: "Snowflake",
+          fontAwesomeClassname: "fa-solid:snowflake",
+          style: { color: "#29B5E8" },
         },
       ],
     },
@@ -147,9 +132,19 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "Java",
+          fontAwesomeClassname: "fa-brands:java",
+          style: { color: "#007396" },
+        },
+        {
           skillName: "Python",
           fontAwesomeClassname: "fa-brands:python",
           style: { color: "#3776AB" },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "fa-brands:js",
+          style: { color: "#3178C6" },
         },
         {
           skillName: "JavaScript",
@@ -157,29 +152,14 @@ const skills = {
           style: { color: "#F7DF1E" },
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "fa-brands:java",
-          style: { color: "#007396" },
-        },
-        {
           skillName: "SQL",
           fontAwesomeClassname: "fa-solid:database",
           style: { color: "#4479A1" },
         },
         {
-          skillName: "React.js",
-          fontAwesomeClassname: "fa-brands:react",
-          style: { color: "#61DAFB" },
-        },
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "fa-brands:html5",
-          style: { color: "#E34F26" },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-brands:css3-alt",
-          style: { color: "#1572B6" },
+          skillName: "Go",
+          fontAwesomeClassname: "fa-brands:golang",
+          style: { color: "#00ADD8" },
         },
         {
           skillName: "Spring Boot",
@@ -187,14 +167,49 @@ const skills = {
           style: { color: "#6DB33F" },
         },
         {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "fa-solid:bolt",
+          style: { color: "#009688" },
+        },
+        {
           skillName: "Node.js",
           fontAwesomeClassname: "fa-brands:node-js",
           style: { color: "#339933" },
         },
         {
-          skillName: "Git",
-          fontAwesomeClassname: "fa-brands:git-alt",
-          style: { color: "#F05032" },
+          skillName: "REST APIs",
+          fontAwesomeClassname: "fa-solid:plug",
+          style: { color: "#61DAFB" },
+        },
+        {
+          skillName: "Microservices",
+          fontAwesomeClassname: "fa-solid:cubes",
+          style: { color: "#FF6B6B" },
+        },
+        {
+          skillName: "RabbitMQ",
+          fontAwesomeClassname: "fa-solid:envelope-open",
+          style: { color: "#FF6600" },
+        },
+        {
+          skillName: "Kafka",
+          fontAwesomeClassname: "fa-solid:stream",
+          style: { color: "#231F20" },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "fa-solid:server",
+          style: { color: "#336791" },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "fa-solid:database",
+          style: { color: "#00758F" },
+        },
+        {
+          skillName: "NoSQL/DynamoDB",
+          fontAwesomeClassname: "fa-solid:layer-group",
+          style: { color: "#4053D6" },
         },
         {
           skillName: "Docker",
@@ -202,9 +217,29 @@ const skills = {
           style: { color: "#2496ED" },
         },
         {
-          skillName: "Jupyter",
-          fontAwesomeClassname: "fa-solid:book",
-          style: { color: "#F37726" },
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "fa-solid:dharmachakra",
+          style: { color: "#326CE5" },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "fa-brands:aws",
+          style: { color: "#FF9900" },
+        },
+        {
+          skillName: "GitHub Actions",
+          fontAwesomeClassname: "fa-brands:github",
+          style: { color: "#2088FF" },
+        },
+        {
+          skillName: "CI/CD",
+          fontAwesomeClassname: "fa-solid:arrows-spin",
+          style: { color: "#00C853" },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "fa-brands:git-alt",
+          style: { color: "#F05032" },
         },
         {
           skillName: "VS Code",
@@ -217,19 +252,9 @@ const skills = {
           style: { color: "#181717" },
         },
         {
-          skillName: "MySQL",
-          fontAwesomeClassname: "fa-solid:database",
-          style: { color: "#00758F" },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "fa-solid:server",
-          style: { color: "#336791" },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "fa-solid:fire",
-          style: { color: "#FF9800" },
+          skillName: "Jupyter",
+          fontAwesomeClassname: "fa-solid:book",
+          style: { color: "#F37726" },
         },
       ],
     },
@@ -238,41 +263,34 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#402F14",
-      },
-      profileLink: "https://leetcode.com/u/manojthapa/",
-    },
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
   degrees: [
     {
       title: "Aston University, Birmingham",
-      subtitle: "MSc Artificial Intelligence",
+      subtitle: "MSc Artificial Intelligence (Computer Science)",
       logo_path: "aston_logo.png",
       alt_name: "Aston University",
-      duration: "Jan 2025 - Jan 2026 (Expected)",
+      duration: "January 2025 - April 2026",
+      percentage: "70.37%",
       descriptions: [
-        "⚡ Specializing in advanced AI, including Deep Learning, Natural Language Processing (NLP), and Computer Vision.",
-        "⚡ Applying theoretical knowledge to practical projects involving complex model architectures and MLOps principles.",
+        "• Specialized in advanced AI (Deep Learning, NLP, Computer Vision) and applied theoretical knowledge to practical projects involving complex model architectures and MLOps.",
+        "• Achieved a final score of 70.37%.",
       ],
       website_link: "https://www.aston.ac.uk/",
     },
     {
       title: "Dr. Ambedkar Institute of Technology, Bangalore",
-      subtitle: "Bachelor of Engineering in Computer Science and Engineering",
+      subtitle: "Bachelor of Engineering in Computer Science",
       logo_path: "drait_logo.png",
       alt_name: "Dr. AIT, Bangalore",
-      duration: "2017 - 2021",
+      duration: "August 2017 – September 2021",
+      cgpa: "9.45/10",
       descriptions: [
-        "⚡ Built a strong foundation in Data Structures, Algorithms, DBMS, Operating Systems, and Computer Architecture.",
-        "⚡ Completed specialized coursework in Machine Learning, Deep Learning, and Full Stack Development.",
+        "• Built a strong foundation in core CS subjects (DSA, OS, DBMS) and completed specialized coursework in Machine Learning and Full Stack Development.",
+        "• Achieved a CGPA of 9.45/10.",
       ],
       website_link: "https://www.drait.edu.in",
     },
@@ -283,9 +301,9 @@ const degrees = {
       alt_name: "MMC, Butwal, Nepal",
       duration: "2015 - 2017",
       descriptions: [
-        "⚡ Developed strong analytical and problem-solving skills through a rigorous science and mathematics curriculum.",
-        "⚡ Awarded the Mahatma Gandhi Scholarship for academic excellence.",
-        "⚡ Achieved a final score of 75.8%.",
+        "• Developed strong analytical and problem-solving skills through a rigorous science and mathematics curriculum.",
+        "• Awarded the Mahatma Gandhi Scholarship for academic excellence.",
+        "• Achieved a final score of 75.8%.",
       ],
       website_link: "https://www.manimukundacollege.edu.np",
     },
@@ -296,8 +314,8 @@ const degrees = {
       alt_name: "NHI, Butwal, Nepal",
       duration: "2014 - 2015",
       descriptions: [
-        "⚡ Established an early foundation in STEM subjects with a focus on Computer Science and Mathematics.",
-        "⚡ Achieved a final score of 85.63%.",
+        "• Established an early foundation in STEM subjects with a focus on Computer Science and Mathematics.",
+        "• Achieved a final score of 85.63%.",
       ],
       website_link: "https://newhorizon.edu.np",
     },
@@ -307,8 +325,8 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "5-Day AI Agents Intensive Course",
-      subtitle: "Google | Kaggle",
+      title: "5-Day AI Agents Intensive Course with Google",
+      subtitle: "Kaggle",
       logo_path: "",
       certificate_link:
         "https://www.kaggle.com/certification/badges/manojkumarthapa/105",
@@ -317,17 +335,17 @@ const certifications = {
       icon: "logos:google-icon",
     },
     {
-      title: "AI Masterclass: How AI Thinks",
-      subtitle: "- Saras AI Institute",
+      title: "AI Masterclass",
+      subtitle: "SARAS AI Institute",
       logo_path: "saras_ai_institute.png",
       certificate_link:
         "https://credsverse.com/credentials/3f44c319-2b85-4345-824f-191da7fdbef2",
-      alt_name: "Saras AI Institute",
+      alt_name: "SARAS AI Institute",
       color_code: "#c2b3ef",
     },
     {
       title: "Machine Learning",
-      subtitle: "- Andrew Ng - Stanford University",
+      subtitle: "Stanford",
       logo_path: "stanford_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/certificate/W29WV2DFL476",
@@ -336,7 +354,7 @@ const certifications = {
     },
     {
       title: "Deep Learning Specialization",
-      subtitle: "- Andrew Ng - deeplearning.ai",
+      subtitle: "DeepLearning.AI",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/specialization/certificate/MLU4694ENBEL",
@@ -346,7 +364,7 @@ const certifications = {
 
     {
       title: "Data Visualization using Python",
-      subtitle: "- Great Learning",
+      subtitle: "Great Learning",
       logo_path: "greatlearning_logo.png",
       certificate_link:
         "https://olympus1.greatlearning.in/course_certificate/ZMICNLYY",
@@ -355,7 +373,7 @@ const certifications = {
     },
     {
       title: "Data Visualization using Tableau",
-      subtitle: "- Great Learning",
+      subtitle: "Great Learning",
       logo_path: "greatlearning_logo.png",
       certificate_link:
         "https://olympus1.greatlearning.in/course_certificate/DLEKCAPR",
@@ -370,7 +388,7 @@ const experience = {
   title: "Experience",
   subtitle: "👨🏻‍💻",
   description:
-    "An AI and Machine Learning Engineer who builds and deploys scalable models. I bridge the gap between complex AI systems and production-ready applications using my full-stack skills in React and Spring Boot.",
+    "Software Engineer with <strong>2 years of production experience</strong> building Java Spring Boot backends and REST APIs at Accenture, and a <strong>recently completed MSc in Artificial Intelligence</strong> (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Independently learning Kafka and Snowflake. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -384,8 +402,8 @@ const experience = {
           duration: "August 2025 - January 2026",
           location: "Birmingham, England, United Kingdom · On-site",
           description: [
-            "Mentoring MSc AI students through their academic transition, providing guidance on coursework, project strategies, and career development.",
-            "Conducting weekly one-on-one sessions to support skill development in machine learning, Python, and research methodologies.",
+            "Mentored 10+ MSc AI students through their academic transition, providing guidance on coursework, project strategies, and career development.",
+            "Conducted weekly one-on-one sessions to support skill development in machine learning, Python, and research methodologies, helping students improve project outcomes.",
           ],
           color: "#A100FE",
         },
@@ -397,9 +415,10 @@ const experience = {
           duration: "October 2021 - October 2023",
           location: "Bangalore, India",
           description: [
-            "Developed scalable full-stack modules using Java Spring Boot and React for a high-traffic client application, strictly adhering to Agile workflows.",
-            "Optimized slow-performing SQL queries and API endpoints, reducing response latency by 40% and improving user experience.",
-            "Integrated automated unit testing (JUnit) into CI/CD pipelines, reducing regression bugs and accelerating deployment cycles.",
+            "Built and maintained production features in Java Spring Boot and React for a large-scale enterprise application, working in a team of 6 engineers across the full SDLC from design through deployment.",
+            "Owned backend REST API services end-to-end: gathered requirements from stakeholders, implemented business logic and PostgreSQL/MySQL data access layers, wrote JUnit tests, and monitored production behaviour to catch regressions early.",
+            "Reduced API response time by ~40% through SQL query optimisation and N+1 elimination, improving reliability for downstream services and meeting SLA targets.",
+            "Participated in regular code reviews, giving and receiving feedback to improve code quality; contributed to Agile sprint ceremonies and delivered features consistently across releases.",
           ],
           color: "#A100FE",
         },
@@ -445,7 +464,7 @@ const contactPageData = {
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+44 7438 029689",
+    subtitle: "+44 7438029689",
   },
 };
 

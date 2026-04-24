@@ -176,9 +176,10 @@ class Experience extends Component {
                 <p
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
-                >
-                  {experience["description"]}
-                </p>
+                  dangerouslySetInnerHTML={{
+                    __html: experience["description"],
+                  }}
+                />
               </div>
             </div>
           </Fade>

@@ -5,7 +5,7 @@
       "name": "FruitGuard AI — MSc Dissertation",
       "createdAt": "2025-08-01T00:00:00Z",
       "url": "https://huggingface.co/spaces/manojthapaa/fruit-guard-ai",
-      "description": "Researched and implemented a two-phase transfer learning pipeline (YOLOv8n) achieving 96.3% classification accuracy with 95% less training data. Deployed as a real-time web app via ONNX Runtime at 73 FPS.",
+      "description": "Researched and implemented a two-phase transfer learning pipeline (YOLOv8n) that achieved commercial-grade fruit detection accuracy using only 207 training images — a 95% reduction in data. Deployed as a real-time web app via ONNX Runtime achieving 73 FPS inference.",
       "isFork": false,
       "languages": [
         {
@@ -31,7 +31,7 @@
       "name": "NeuroArc",
       "createdAt": "2025-11-01T00:00:00Z",
       "url": "https://huggingface.co/spaces/manojthapaa/NeuroArc",
-      "description": "Built an AI-powered job application assistant that parses resumes and generates ATS-optimized tailored versions using prompt engineering.",
+      "description": "Built an AI-powered tool that processes CVs and job descriptions and generates tailored outputs using LLMs. Improved robustness by adding schema-level input validation, structured error responses, and request logging.",
       "isFork": false,
       "languages": [
         {
@@ -57,7 +57,7 @@
       "name": "Planck AI",
       "createdAt": "2025-09-01T00:00:00Z",
       "url": "https://huggingface.co/spaces/manojthapaa/planck-ai",
-      "description": "Engineered an autonomous agentic system capable of multi-step reasoning by orchestrating LLM tool-calling for real-time web search.",
+      "description": "Built a full-stack agentic AI application that orchestrates 5 tool integrations (web search, code execution, document retrieval, LLM reasoning, result synthesis). Parallelised independent tool calls using asyncio, reducing wall-clock latency for multi-step queries.",
       "isFork": false,
       "languages": [
         {
@@ -69,8 +69,8 @@
           "iconifyClass": "simple-icons:langchain"
         },
         {
-          "name": "GPT-4o",
-          "iconifyClass": "simple-icons:openai"
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
         },
         {
           "name": "React",
@@ -83,7 +83,7 @@
       "name": "Full-Stack E-Commerce Platform",
       "createdAt": "2025-08-01T00:00:00Z",
       "url": "https://novela-app.onrender.com/",
-      "description": "Engineered a complete e-commerce solution with a secure Spring Boot API (JWT) and a responsive React frontend.",
+      "description": "Implemented a production-grade e-commerce application with ACID transactions and row-level locking for concurrent inventory updates. Containerised with Docker Compose and set up GitHub Actions CI/CD.",
       "isFork": false,
       "languages": [
         {
@@ -109,12 +109,16 @@
       "name": "CogniGraph",
       "createdAt": "2025-06-01T00:00:00Z",
       "url": "https://huggingface.co/spaces/manojthapaa/CogniGraph",
-      "description": "Developed a RAG-based document explorer that extracts entities and relationships from unstructured PDFs to build interactive knowledge graphs.",
+      "description": "Built a RAG-based document explorer that extracts entities and relationships from unstructured PDFs to construct interactive knowledge graphs. Integrated ChromaDB for vector storage and semantic retrieval.",
       "isFork": false,
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
         },
         {
           "name": "ChromaDB",

@@ -7,7 +7,7 @@ const settings = {
 const seo = {
   title: "Manoj Kumar Thapa",
   description:
-    "Software Engineer with 2 years of production experience building Java Spring Boot backends and REST APIs at Accenture, and a recently completed MSc in Artificial Intelligence (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Independently learning Kafka and Snowflake. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
+    "Software Engineer with industry experience building Java Spring Boot backends and REST APIs at Accenture, and a recently completed MSc in Artificial Intelligence (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
   og: {
     title: "Manoj Kumar Thapa",
     type: "website",
@@ -21,9 +21,9 @@ const greeting = {
   logo_name: "Manoj Kumar Thapa",
   nickname: "Software Engineer",
   subTitle:
-    "Software Engineer with <strong>2 years of production experience</strong> building Java Spring Boot backends and REST APIs at Accenture, and a <strong>recently completed MSc in Artificial Intelligence</strong> (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Independently learning Kafka and Snowflake. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
+    "Software Engineer with <strong>industry experience</strong> building Java Spring Boot backends and REST APIs at Accenture, and a <strong>recently completed MSc in Artificial Intelligence</strong> (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
   resumeLink:
-    "https://drive.google.com/file/d/1TZEJB-oa2n3vR-QtRK9yBt-Dm6pknPR_/view?usp=sharing",
+    "https://drive.google.com/file/d/1J5veUz64FEJD6loJzzJbXwsrGmLEOsMK/view?usp=sharing",
   portfolio_repository: "https://github.com/iammanoj807",
   githubProfile: "https://github.com/iammanoj807",
 };
@@ -388,12 +388,25 @@ const experience = {
   title: "Experience",
   subtitle: "👨🏻‍💻",
   description:
-    "Software Engineer with <strong>2 years of production experience</strong> building Java Spring Boot backends and REST APIs at Accenture, and a <strong>recently completed MSc in Artificial Intelligence</strong> (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Independently learning Kafka and Snowflake. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
+    "Software Engineer with <strong>industry experience</strong> building Java Spring Boot backends and REST APIs at Accenture, and a <strong>recently completed MSc in Artificial Intelligence</strong> (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
+        {
+          title: "AI Intern",
+          company: "FlyRank AI",
+          company_url: "https://www.flyrank.com",
+          logo_path: "flyrank_logo.jpeg",
+          duration: "June 2026 - Present",
+          location: "London Area, United Kingdom · Remote",
+          description: [
+            "Building <strong>RAG pipelines</strong>, structured output systems, and evaluation harnesses as part of FlyRank AI's Backend AI Engineering track.",
+            "Working with <strong>Python, FastAPI, and LLM APIs</strong> to design and ship real backend AI products.",
+          ],
+          color: "#6366F1",
+        },
         {
           title: "Mentor",
           company: "Aston University",
@@ -402,8 +415,8 @@ const experience = {
           duration: "August 2025 - January 2026",
           location: "Birmingham, England, United Kingdom · On-site",
           description: [
-            "Mentored 10+ MSc AI students through their academic transition, providing guidance on coursework, project strategies, and career development.",
-            "Conducted weekly one-on-one sessions to support skill development in machine learning, Python, and research methodologies, helping students improve project outcomes.",
+            "Mentored <strong>10+ MSc AI students</strong> through their academic transition, providing guidance on coursework, project strategies, and career development.",
+            "Conducted <strong>weekly one-on-one sessions</strong> to support skill development in machine learning, Python, and research methodologies, helping students improve project outcomes.",
           ],
           color: "#A100FE",
         },
@@ -412,12 +425,12 @@ const experience = {
           company: "Accenture",
           company_url: "https://www.accenture.com",
           logo_path: "accenture_logo.png",
-          duration: "October 2021 - October 2023",
+          duration: "October 2021 - October 2022",
           location: "Bangalore, India",
           description: [
-            "Built and maintained production features in Java Spring Boot and React for a large-scale enterprise application, working in a team of 6 engineers across the full SDLC from design through deployment.",
-            "Owned backend REST API services end-to-end: gathered requirements from stakeholders, implemented business logic and PostgreSQL/MySQL data access layers, wrote JUnit tests, and monitored production behaviour to catch regressions early.",
-            "Reduced API response time by ~40% through SQL query optimisation and N+1 elimination, improving reliability for downstream services and meeting SLA targets.",
+            "Built and maintained production features in <strong>Java Spring Boot</strong> and <strong>React</strong> for a large-scale enterprise application, working in a team of 6 engineers across the full SDLC from design through deployment.",
+            "Owned backend REST API services end-to-end: gathered requirements from stakeholders, implemented business logic and <strong>PostgreSQL/MySQL</strong> data access layers, wrote <strong>JUnit</strong> tests, and monitored production behaviour to catch regressions early.",
+            "Reduced <strong>API response time by ~40%</strong> through SQL query optimisation and N+1 elimination, improving reliability for downstream services and meeting SLA targets.",
             "Participated in regular code reviews, giving and receiving feedback to improve code quality; contributed to Agile sprint ceremonies and delivered features consistently across releases.",
           ],
           color: "#A100FE",
@@ -447,7 +460,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "Manoj Thapa Professional.png",
     description:
-      "Have a project in mind or an opportunity you'd like to discuss? I'm currently seeking internship and graduate roles where I can apply my skills in AI and full-stack development. Let's talk about how I can contribute to your team.",
+      "Have a project in mind or an opportunity you'd like to discuss? I'm currently working as an AI Intern at FlyRank AI and open to discussing opportunities where I can apply my skills in AI and backend engineering. Let's talk about how I can contribute to your team.",
   },
   blogSection: {
     title: "Blogs",

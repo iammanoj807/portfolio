@@ -64,9 +64,11 @@ class ExperienceCard extends Component {
               }}
             >
               {experience["description"].map((item, index) => (
-                <li key={index} style={{ marginBottom: "5px" }}>
-                  {item}
-                </li>
+                <li
+                  key={index}
+                  style={{ marginBottom: "5px" }}
+                  dangerouslySetInnerHTML={{ __html: item }}
+                />
               ))}
             </ul>
           ) : (

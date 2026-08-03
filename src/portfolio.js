@@ -7,7 +7,7 @@ const settings = {
 const seo = {
   title: "Manoj Kumar Thapa",
   description:
-    "Software Engineer with industry experience building Java Spring Boot backends and REST APIs at Accenture, and a recently completed MSc in Artificial Intelligence (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
+    "AI Engineer with hands-on experience designing and building backend services, APIs, and orchestration layers that support AI and GenAI use cases, including an autonomous agent built with LangGraph that integrates multiple tools and data sources to solve complex tasks end to end. Proficient in Python and SQL, with practical experience across LLM integration, prompt orchestration, retrieval-augmented generation (RAG), and productionising AI systems from prototype through to deployed service. Strong software engineering discipline covering clean code, automated testing, version control, and CI/CD, with a track record of taking ambiguous problems through to practical, working solutions. Comfortable collaborating across technical and business stakeholders to ensure AI use cases are usable, reliable, and safely deployed.",
   og: {
     title: "Manoj Kumar Thapa",
     type: "website",
@@ -19,11 +19,11 @@ const seo = {
 const greeting = {
   title: "Manoj Kumar Thapa",
   logo_name: "Manoj Kumar Thapa",
-  nickname: "Software Engineer",
+  nickname: "AI Software Engineer",
   subTitle:
-    "Software Engineer with <strong>industry experience</strong> building Java Spring Boot backends and REST APIs at Accenture, and a <strong>recently completed MSc in Artificial Intelligence</strong> (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
+    "AI Engineer with hands-on experience designing and building <strong>backend services, APIs, and orchestration layers</strong> that support AI and GenAI use cases, including an autonomous agent built with <strong>LangGraph</strong> that integrates multiple tools and data sources to solve complex tasks end to end.<br/><br/>Proficient in <strong>Python and SQL</strong>, with practical experience across LLM integration, prompt orchestration, <strong>retrieval-augmented generation (RAG)</strong>, and productionising AI systems from prototype through to deployed service.<br/><br/>Strong software engineering discipline covering <strong>clean code, automated testing, version control, and CI/CD</strong>, with a track record of taking ambiguous problems through to practical, working solutions. Comfortable collaborating across technical and business stakeholders to ensure AI use cases are usable, reliable, and safely deployed.",
   resumeLink:
-    "https://drive.google.com/file/d/1J5veUz64FEJD6loJzzJbXwsrGmLEOsMK/view?usp=sharing",
+    "https://drive.google.com/file/d/1k-3Oht998eb2H3E8dncWgOXQLIOrQXxz/view?usp=sharing",
   portfolio_repository: "https://github.com/iammanoj807",
   githubProfile: "https://github.com/iammanoj807",
 };
@@ -273,7 +273,7 @@ const degrees = {
       subtitle: "MSc Artificial Intelligence (Computer Science)",
       logo_path: "aston_logo.png",
       alt_name: "Aston University",
-      duration: "January 2025 - April 2026",
+      duration: "January 2025 - July 2026",
       percentage: "70.37%",
       descriptions: [
         "• Specialized in advanced AI (Deep Learning, NLP, Computer Vision) and applied theoretical knowledge to practical projects involving complex model architectures and MLOps.",
@@ -388,7 +388,7 @@ const experience = {
   title: "Experience",
   subtitle: "👨🏻‍💻",
   description:
-    "Software Engineer with <strong>industry experience</strong> building Java Spring Boot backends and REST APIs at Accenture, and a <strong>recently completed MSc in Artificial Intelligence</strong> (Aston University). Comfortable working in multi-person codebases, writing tested reviewable code, and picking up unfamiliar systems quickly. Eligible to work in the UK without sponsorship (Graduate Route Visa, 2026–2028).",
+    "AI Engineer with hands-on experience designing and building <strong>backend services, APIs, and orchestration layers</strong> that support AI and GenAI use cases, including an autonomous agent built with <strong>LangGraph</strong> that integrates multiple tools and data sources to solve complex tasks end to end.<br/><br/>Proficient in <strong>Python and SQL</strong>, with practical experience across LLM integration, prompt orchestration, <strong>retrieval-augmented generation (RAG)</strong>, and productionising AI systems from prototype through to deployed service.<br/><br/>Strong software engineering discipline covering <strong>clean code, automated testing, version control, and CI/CD</strong>, with a track record of taking ambiguous problems through to practical, working solutions. Comfortable collaborating across technical and business stakeholders to ensure AI use cases are usable, reliable, and safely deployed.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -425,7 +425,7 @@ const experience = {
           company: "Accenture",
           company_url: "https://www.accenture.com",
           logo_path: "accenture_logo.png",
-          duration: "October 2021 - October 2022",
+          duration: "October 2021 - May 2022",
           location: "Bangalore, India",
           description: [
             "Built and maintained production features in <strong>Java Spring Boot</strong> and <strong>React</strong> for a large-scale enterprise application, working in a team of 6 engineers across the full SDLC from design through deployment.",

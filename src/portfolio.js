@@ -7,7 +7,7 @@ const settings = {
 const seo = {
   title: "Manoj Kumar Thapa",
   description:
-    "AI Engineer with hands-on experience designing and building backend services, APIs, and orchestration layers that support AI and GenAI use cases, including an autonomous agent built with LangGraph that integrates multiple tools and data sources to solve complex tasks end to end. Proficient in Python and SQL, with practical experience across LLM integration, prompt orchestration, retrieval-augmented generation (RAG), and productionising AI systems from prototype through to deployed service. Strong software engineering discipline covering clean code, automated testing, version control, and CI/CD, with a track record of taking ambiguous problems through to practical, working solutions. Comfortable collaborating across technical and business stakeholders to ensure AI use cases are usable, reliable, and safely deployed.",
+    "AI Software Engineer with an MSc in Artificial Intelligence, building production-facing AI features across the stack: LLM-powered applications, retrieval-augmented generation pipelines, and agentic tool orchestration. Shipped three distinct AI products end to end, from backend service (FastAPI, Python) through frontend (TypeScript, React), including an agent orchestrating 5 tool integrations via LangGraph and a RAG pipeline grounding LLM output in source documents via ChromaDB. Backed by professional backend engineering experience at Accenture, owning production REST APIs and improving response time by 40%. Strong Python fundamentals combined with a fast-execution, first-principles approach to building and shipping AI capabilities.",
   og: {
     title: "Manoj Kumar Thapa",
     type: "website",
@@ -21,9 +21,9 @@ const greeting = {
   logo_name: "Manoj Kumar Thapa",
   nickname: "AI Software Engineer",
   subTitle:
-    "AI Engineer with hands-on experience designing and building <strong>backend services, APIs, and orchestration layers</strong> that support AI and GenAI use cases, including an autonomous agent built with <strong>LangGraph</strong> that integrates multiple tools and data sources to solve complex tasks end to end.<br/><br/>Proficient in <strong>Python and SQL</strong>, with practical experience across LLM integration, prompt orchestration, <strong>retrieval-augmented generation (RAG)</strong>, and productionising AI systems from prototype through to deployed service.<br/><br/>Strong software engineering discipline covering <strong>clean code, automated testing, version control, and CI/CD</strong>, with a track record of taking ambiguous problems through to practical, working solutions. Comfortable collaborating across technical and business stakeholders to ensure AI use cases are usable, reliable, and safely deployed.",
+    "AI Software Engineer with an MSc in Artificial Intelligence, building production-facing AI features across the stack: <strong>LLM-powered applications, retrieval-augmented generation pipelines, and agentic tool orchestration</strong>.<br/><br/>Shipped <strong>three distinct AI products end to end</strong>, from backend service (<strong>FastAPI, Python</strong>) through frontend (<strong>TypeScript, React</strong>), including an agent orchestrating 5 tool integrations via <strong>LangGraph</strong> and a RAG pipeline grounding LLM output in source documents via <strong>ChromaDB</strong>.<br/><br/>Backed by professional backend engineering experience at <strong>Accenture</strong>, owning production REST APIs and improving response time by <strong>40%</strong>. Strong Python fundamentals combined with a fast-execution, first-principles approach to building and shipping AI capabilities.",
   resumeLink:
-    "https://drive.google.com/file/d/1k-3Oht998eb2H3E8dncWgOXQLIOrQXxz/view?usp=sharing",
+    "https://drive.google.com/file/d/116HbwjFVXO7FxjX_J9PAP-VlotntZTYL/view?usp=sharing",
   portfolio_repository: "https://github.com/iammanoj807",
   githubProfile: "https://github.com/iammanoj807",
 };
